@@ -33,3 +33,20 @@ list.c:34:8: error: expected identifier or ‘(’ before ‘->’ token
       |        ^~
 Compilation failed
 f9d00eb
+Wed 22 Mar 2023 01:13:33 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:33:8: error: expected identifier or ‘(’ before ‘->’ token
+   33 |   List -> head ;
+      |        ^~
+list.c:34:8: error: expected identifier or ‘(’ before ‘->’ token
+   34 |   List -> tail;
+      |        ^~
+list.c:32:9: error: unused variable ‘list’ [-Werror=unused-variable]
+   32 |   List *list = malloc(sizeof(List));
+      |         ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+7bcabaa
