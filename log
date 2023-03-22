@@ -105,3 +105,9 @@ list.c:42:31: error: expected ‘;’ before ‘return’
       |     ~~~~~~                     
 Compilation failed
 016680e
+Wed 22 Mar 2023 11:18:42 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+89a75f8
