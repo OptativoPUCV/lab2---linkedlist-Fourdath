@@ -2,3 +2,18 @@ Wed 22 Mar 2023 12:35:56 AM UTC:
  tests:  0|6
 total_score: 0/70
 eef6ec8
+Wed 22 Mar 2023 01:12:38 AM UTC: 
+ list.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:32:14: error: expected declaration specifiers or ‘...’ before ‘malloc’
+   32 |   List *list(malloc(sizeof(List)));
+      |              ^~~~~~
+list.c:33:3: error: ‘list’ undeclared (first use in this function); did you mean ‘List’?
+   33 |   list -> head ;
+      |   ^~~~
+      |   List
+list.c:33:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+236b535
