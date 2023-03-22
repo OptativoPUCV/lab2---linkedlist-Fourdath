@@ -92,3 +92,16 @@ list.c:42:9: error: expected identifier or ‘(’ before ‘->’ token
       |         ^~
 Compilation failed
 8647fb8
+Wed 22 Mar 2023 11:18:37 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:42:31: error: expected ‘;’ before ‘return’
+   42 |     list->current = list->head
+      |                               ^
+      |                               ;
+   43 |     return list->current->data;
+      |     ~~~~~~                     
+Compilation failed
+016680e
