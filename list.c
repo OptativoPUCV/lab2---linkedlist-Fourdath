@@ -124,7 +124,9 @@ void * popBack(List * list) {
 void * popCurrent(List * list) {
   if (list == NULL || list->current == NULL) {
     return NULL;
-  }  
+  } 
+  Node* current = list->current;
+  void* data = current->data;
 }
 
 void cleanList(List * list) {
