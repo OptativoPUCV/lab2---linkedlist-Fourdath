@@ -130,7 +130,7 @@ void * popCurrent(List * list) {
   if (current->prev != NULL) {
     current->prev->next = current->next;
   }
-}
+
 
 void cleanList(List * list) {
     while (list->head != NULL) {
