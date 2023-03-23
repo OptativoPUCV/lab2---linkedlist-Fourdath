@@ -302,3 +302,17 @@ list.c:135:6: error: ‘cleanList’ defined but not used [-Werror=unused-functi
 cc1: all warnings being treated as errors
 Compilation failed
 18ee809
+Thu 23 Mar 2023 03:05:32 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:129:9: error: unused variable ‘data’ [-Werror=unused-variable]
+  129 |   void* data = current->data;
+      |         ^~~~
+list.c:133:1: error: control reaches end of non-void function [-Werror=return-type]
+  133 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+62ee37a
