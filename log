@@ -367,3 +367,17 @@ Fri 24 Mar 2023 09:25:55 PM UTC:
  tests:  11|1
 total_score: 60/70
 46f7b2d
+Fri 24 Mar 2023 09:28:47 PM UTC: 
+ list.c | 9 ++-------
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:94:3: error: expected ‘}’ before ‘else’
+   94 |   else{
+      |   ^~~~
+list.c:97:5: error: ‘nuevo_nodo’ undeclared (first use in this function)
+   97 |     nuevo_nodo->prev = nodo_actual;
+      |     ^~~~~~~~~~
+list.c:97:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+5b5acff
