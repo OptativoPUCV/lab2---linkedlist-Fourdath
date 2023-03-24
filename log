@@ -392,3 +392,9 @@ list.c:98:5: error: ‘nuevo_nodo’ undeclared (first use in this function)
 list.c:98:5: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 bc7c00a
+Fri 24 Mar 2023 09:30:39 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  12|0
+total_score: 70/70
+a234c6d
