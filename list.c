@@ -127,8 +127,6 @@ void * popCurrent(List * list) {
 
   Node* current = list->current;
   void* data = current->data;
-
-  // Determine qué función llamar en función de la posición del nodo actual
   if (current == list->head) {
     popFront(list);
   }
@@ -140,7 +138,7 @@ void * popCurrent(List * list) {
     current->next->prev = current->prev;
   }
 
-  free(current);
+  
   return data;
 }
 
