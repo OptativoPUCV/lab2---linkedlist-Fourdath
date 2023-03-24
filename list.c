@@ -91,6 +91,7 @@ void pushBack(List * list, void * data) {
 void pushCurrent(List * list, void * data) {
   if (list->current == NULL) {
     pushBack(list, data);
+  } 
   else{
     Node * nodo_actual = list->current;
     Node * nodo_siguiente = nodo_actual->next;

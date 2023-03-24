@@ -381,3 +381,14 @@ list.c:97:5: error: ‘nuevo_nodo’ undeclared (first use in this function)
 list.c:97:5: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 5b5acff
+Fri 24 Mar 2023 09:28:59 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:98:5: error: ‘nuevo_nodo’ undeclared (first use in this function)
+   98 |     nuevo_nodo->prev = nodo_actual;
+      |     ^~~~~~~~~~
+list.c:98:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+bc7c00a
